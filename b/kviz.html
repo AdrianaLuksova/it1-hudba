@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Kvíz</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Úvod</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../c/radio.html">Radiohead</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../d/smiths.html">The Smiths</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../e/TheCure.html">The Cure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../a/jd.html">Joy Division</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../b/kviz.html">Kvíz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <form method="post">
+
+
+
+      <p class="alert alert-info">1. Jak se jmenuje zpěvák skupiny Joy Division?</p>
+      <div class="row mb-3">
+        <label for="otazka1" class="col-sm-2 col-form-label pb-4">Zpěvák Joy Division</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control border-info" id="otazka1" name="otazka1"
+            placeholder="Zadej název interpreta">
+        </div>
+      </div>
+      <p class="alert alert-success collapse">Správná odpověď: <b>Ian Curtis</b></p>
+
+
+
+      <p class="alert alert-info">2. Kdy byla založena skupina Radiohead?</p>
+      <div class="row mb-3">
+        <label for="otazka2" class="col-sm-2 col-form-label pb-4">Rok</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control border-info" id="otazka2" name="otazka2" placeholder="Zadej rok"
+            value="2000" max="2000" min="1920" step="1">
+        </div>
+      </div>
+      <p class="alert alert-success collapse">Správná odpověď: <b>1985</b></p>
+
+
+      <p class="alert alert-info">3. Jaké je první album skupiny The Cure?</p>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Vyber správný název alba:</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="otazka3" id="otazka3" value="option1">
+            <label class="form-check-label" id="skyfall">
+              Pornography
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="otazka3" id="otazka32" value="option2">
+            <label class="form-check-label" id="Spectre">
+              Faith
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="otazka3" id="otazka33" value="option3">
+            <label class="form-check-label pb-3" id="no-time-to-die">
+              Three Imaginary boys
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <p class="alert alert-success collapse">Správná odpověď: <b>Three Imaginary boys</b></p>
+      <p class="alert alert-info">4. Je Morrissey člen skupiny The Cure?</p>
+      <div class="row mb-3">
+        <div class="col-form-label col-sm-2">Vyber správnou odpověď:</div>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Ano
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck2">
+            <label class="form-check-label" for="gridCheck2">
+              Ne
+            </label>
+          </div>
+        </div>
+      </div>
+      <p class="alert alert-success collapse">Správná odpověď: <b>Ne</b></p>
+
+      <button type="button" class="btn btn-primary mt-4" data-bs-toggle="collapse" data-bs-target=".collapse">Zobrazit
+        správně odpovědi</button>
+    </form>
+  </main>
+  <footer class="text-center">
+    &copy; Adriana Luksová
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
